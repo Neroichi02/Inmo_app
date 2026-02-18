@@ -31,3 +31,83 @@ Permite administrar clientes, propiedades, ventas, alquileres y generar reportes
 
 ## 🗂 Estructura del Proyecto
 
+Inmobiliaria_app/
+│
+├── main.py
+├── database.py
+│
+├── models/
+├── services/
+├── ui/
+├── testing/
+│
+└── README.md
+
+
+---
+
+## ⚙️ Instalación
+
+1. Clonar el repositorio:
+
+git clone <url-del-repositorio>
+
+
+2. Crear entorno virtual:
+
+python -m venv venv
+
+
+3. Activar entorno virtual:
+
+- Linux / Mac:
+source venv/bin/activate
+
+- Windows:
+venv\Scripts\activate
+
+
+4. Instalar dependencias:
+pip install -r requirements.txt
+
+
+---
+
+## ▶️ Ejecutar la aplicación
+
+python main.py
+
+
+---
+
+## 📄 Generación de Reportes
+
+- Reportes PDF generados con **ReportLab**
+- Exportación a Excel usando **OpenPyXL**
+
+---
+
+## 🧠 Arquitectura
+
+La aplicación utiliza el patrón:
+
+- **Modelo (Models)** → SQLAlchemy ORM
+- **Servicios (Services)** → Lógica de negocio
+- **UI** → Interfaz PyQt6
+- **Base de Datos** → SQLite local
+
+---
+
+## 📌 Autor
+
+Desarrollado por Tobias Leguizamón  
+Proyecto educativo de aprendizaje en Python.
+
+---
+
+## 📜 Licencia
+
+Proyecto de uso educativo.
+
+
+
